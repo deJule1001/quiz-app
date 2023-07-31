@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #DED8C3; 
+    color: #3B3024; 
+    margin: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100;
+    }
+  
+  .start-screen, #display-container {
+    text-align: center;
+    }
+  
+  .start-screen h1 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #3B3024; 
+    /* Dark earthy brown */
+  }
+  
+  .start-screen button {
+    background-color: #8D4E03; /* Dark brown */
+    color: #FFFFFF; /* White */
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 80px;
+  }
+  
+  .container {
+    background-color: #F7EBD9; /* Light earthy orange */
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .container h1 {
+    text-align: center;
+    color: #3B3024; /* Dark earthy brown */
+  }
+  
+  .time-left {
+    text-align: center;
+    font-size: 24px;
+    color: #3B3024; /* Dark earthy brown */
+  }
+  
+  #question-container {
+    margin: 20px 0;
+  }
+  
+  .number-of-question {
+    text-align: center;
+    color: #3B3024;
+    margin: 20px 0;
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .option-div {
+    background-color: #F2C94C; /* Light earthy yellow */
+    color: #3B3024; /* Dark earthy brown */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  .option-div.correct {
+    background-color: #81C784; /* Light earthy green */
+  }
+  
+  .option-div.incorrect {
+    background-color: #E57373; /* Light earthy red */
+  }
+  
+  #next-button {
+    background-color: #8D4E03; /* Dark brown */
+    color: #FFFFFF; /* White */
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  #next-button:hover {
+    background-color: #6C3902; /* Darker brown */
+  }
+  
+  .score-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .score-container h2 {
+    font-size: 28px;
+    color: #3B3024; /* Dark earthy brown */
+  }
+  
+  .score-container button {
+    background-color: #8D4E03; /* Dark brown */
+    color: #FFFFFF; /* White */
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .score-container button:hover {
+    background-color: #6C3902; /* Darker brown */
+  }
+  
